@@ -95,7 +95,19 @@ class TaskListTableViewController: UITableViewController {
         }
     }
     
-    
+    override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
+                if (segue.identifier == "ToStats") {
+                    var taskCount = 0
+                    for taskBool in taskListBools {
+                        if taskBool {
+                            taskCount += 1
+                        }
+                    }
+                    let nav = segue.destinationViewController as! UINavigationController
+                    let dest = nav.topViewController as! StatsViewController
+                    dest.taskCount = taskCount
+                }
+    }
 
 
     /*

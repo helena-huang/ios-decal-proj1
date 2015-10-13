@@ -13,6 +13,7 @@
 		B80690611BBB37BF000DD243 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B80690601BBB37BF000DD243 /* Assets.xcassets */; };
 		B80690641BBB37BF000DD243 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B80690621BBB37BF000DD243 /* LaunchScreen.storyboard */; };
 		B8B3123D1BCCBE030054241A /* AddTaskTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8B3123C1BCCBE030054241A /* AddTaskTableViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		B8B3123F1BCCE66D0054241A /* StatsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8B3123E1BCCE66C0054241A /* StatsViewController.swift */; settings = {ASSET_TAGS = (); }; };
 		B8B7E0B71BCC555800686030 /* TaskListTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8B7E0B61BCC555800686030 /* TaskListTableViewController.swift */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
@@ -25,6 +26,7 @@
 		B80690631BBB37BF000DD243 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B80690651BBB37BF000DD243 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B8B3123C1BCCBE030054241A /* AddTaskTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddTaskTableViewController.swift; sourceTree = "<group>"; };
+		B8B3123E1BCCE66C0054241A /* StatsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StatsViewController.swift; sourceTree = "<group>"; };
 		B8B7E0B61BCC555800686030 /* TaskListTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TaskListTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -61,6 +63,7 @@
 				B80690591BBB37BF000DD243 /* AppDelegate.swift */,
 				B806905B1BBB37BF000DD243 /* ViewController.swift */,
 				B806905D1BBB37BF000DD243 /* Main.storyboard */,
+				B8B3123E1BCCE66C0054241A /* StatsViewController.swift */,
 				B8B7E0B61BCC555800686030 /* TaskListTableViewController.swift */,
 				B80690601BBB37BF000DD243 /* Assets.xcassets */,
 				B80690621BBB37BF000DD243 /* LaunchScreen.storyboard */,
@@ -143,6 +146,7 @@
 				B8B3123D1BCCBE030054241A /* AddTaskTableViewController.swift in Sources */,
 				B8B7E0B71BCC555800686030 /* TaskListTableViewController.swift in Sources */,
 				B806905C1BBB37BF000DD243 /* ViewController.swift in Sources */,
+				B8B3123F1BCCE66D0054241A /* StatsViewController.swift in Sources */,
 				B806905A1BBB37BF000DD243 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
