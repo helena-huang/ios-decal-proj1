@@ -61,9 +61,9 @@ class TaskListTableViewController: UITableViewController {
      override func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCellWithIdentifier("reuseIdentifier", forIndexPath: indexPath)
         // Get rid of old tasks
-        var current_time = NSDate()
+        let current_time = NSDate()
         for time in taskListTimes {
-            if current_time.timeIntervalSinceDate(time!) > 86400 {
+            if time != nil && current_time.timeIntervalSinceDate(time!) > 86400 {
                 taskListNames.removeAtIndex(indexPath.row)
                 taskListBools.removeAtIndex(indexPath.row)
                 taskListTimes.removeAtIndex(indexPath.row)
@@ -94,6 +94,8 @@ class TaskListTableViewController: UITableViewController {
             self.tableView.reloadData()
         }
     }
+    
+    
 
 
     /*
